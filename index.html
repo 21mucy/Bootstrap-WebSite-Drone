@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modern Business - Start Bootstrap Template</title>
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+          <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="b" class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Hakkımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">İletişim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownBlog"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Blog</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownBlog"
+                >
+                  <li>
+                    <a class="dropdown-item" href="blog-home.html">Blog Home</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownPortfolio"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Portfolio</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownPortfolio"
+                >
+                  <li>
+                    <a class="dropdown-item" href="portfolio-overview.html"
+                      >Portfolio Overview</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="portfolio-item.html"
+                      >Portfolio Item</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="headerc py-5">
+      <!--Padding Y ekseni-->
+      <div class="container px-5">
+        <div class="row gx-5 d-flex justify-content-center align-items-center">
+          <div class="col-lg-6">
+            <div class="my-5 text-center text-xl-start">
+              <h1 class="headerh2">İnsansız Hava Aracı</h1>
+              <p class="headerh1">
+                İnsansız hava aracı veya dron, fiziksel olarak içinde insan
+                bulunmayan bir tür uçan araçtır.
+                <br />
+                Dronlar, uzaktan kumanda ile kontrol edilebilen, komut
+                verilebilen, video ve görüntü kaydı yapabilen insansız hava
+                araçlarıdır
+              </p>
+              <div
+                class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start mt-2"
+              >
+                <!--me-sm-3 küçük ekranda margin end(sağ) ile 3 br boşluk-->
+                <a
+                  class="btn btn-primary btn-lg px-4 me-sm-3 mt-20"
+                  href="#features"
+                  >Hemen Başla</a
+                >
+                <a
+                  class="btn btn-outline-light btn-lg me-sm-3 mt-20 px-4"
+                  href="#!"
+                  >Daha Fazlası</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="img-fluid border-radius"
+              src="https://iha.kapadokya.edu.tr/MediaUploader/%C4%B0HA-2%20Yetkisi-760-450.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="mt-5 mb-5">
+      <div class="container pt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h2 id="headerh2" class="head-feature-heading">
+              İHA ile artık daha mümkün..
+            </h2>
+          </div>
+          <div class="col-lg-8">
+            <div class="row align-items-center justify-content-between">
+              <!--Bu, bir flex container içindeki öğeleri yatay eksende düzenlerken, ilk öğeyi sol kenara hizalar, son öğeyi sağ kenara hizalar ve diğer öğeler arasındaki boşlukları eşit olarak dağıtır.-->
+              <div class="col-lg-4">
+                <!--
+                 <div class="ico feature bg-gradient text-white rounded-3 mb-3">
+                  
+                </div> 
+                -->
+                <i class="fa-solid fa-fire fa-2x m-2" style="color: #bf6d4e">
+                </i>
+                <h5>Yangına Anında Müdahale</h5>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                  Here is just a bit more text.
+                </p>
+              </div>
+              <div class="col-lg-4 video">
+                <i
+                  class="fa-solid fa-video fa-2x mb-3"
+                  style="color: #bf6d4e"
+                ></i>
+                <h5>Keşif ve Gözetleme</h5>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                  Here is just a bit more text.
+                </p>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-lg-4">
+                  <i
+                    class="fa-solid fa-truck fa-2x mb-3"
+                    style="color: #bf6d4e"
+                  ></i>
+                  <h5>Daha Hızlı Taşımacılık</h5>
+                  <p>
+                    Paragraph of text beneath the heading to explain the
+                    heading. Here is just a bit more text.
+                  </p>
+                </div>
+                <div class="col-lg-4">
+                  <i
+                    class="fa-solid fa-wheat-awn fa-2x mb-3"
+                    style="color: #bf6d4e"
+                  ></i>
+                  <h5>Hızlı Zirai Sulama</h5>
+                  <p>
+                    Paragraph of text beneath the heading to explain the
+                    heading. Here is just a bit more text.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="bir" class="py-5">
+      <div class="px-5 my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <p class="pfs">
+                "Adımlarken Galata Kulesi'nin daracık basamaklarını uçup
+                uçmayacağını bilmiyordu Hezarfen. <br />
+                Bir tek şeyden emindi yalnızca. İnmeyecekti yürüyerek çıktığı
+                merdivenden..."
+              </p>
+              <div class="d-flex align-item-center justify-content-center">
+                <img class="rounded-circle me-3" width="40" src="" alt="" />
+                <div class="fw-bold text-white mt-2">
+                  "Tom Auto / CEO, Pomodoro"
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="py-5">
+      <div class="container px-5 my-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h2 class="fw-bolder fs-3">Medya</h2>
+            <p class="fw-normal mb-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+              <br />
+              fugit ratione dicta mollitia. Officiis ad.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-4 mb-5">
+            <div class="card h-100 shadow border-0">
+              <img
+                src="https://www.kargomkolay.com/wp-content/uploads/2019/04/drone6-640x320.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                  Haberler
+                </div>
+                <a
+                  target="_blank"
+                  class="text-decoration-none link-dark stretched-link"
+                  href="https://www.trthaber.com/haber/bilim-teknoloji/kargolar-dronla-tasinacak-pilot-guzergah-istanbul-ankara-615267.html"
+                >
+                  <!--Tüm sayfaya link verdirir; class="text-decoration-none link-dark stretched-link"-->
+                  <h5 class="card-title">Drone ile Kargo Taşımacılığı</h5>
+                </a>
+                <p class="card-text mb-0">
+                  Kargo taşımacılığında insansız hava araçlarını kullanma
+                  çalışmaları sürüyor. Türkiye de dron teknolojilerinde öncü
+                  ülkeler arasında yer alıyor. Ancak hazırlıklar sadece, sistem
+                  geliştirmekle sınırlı kalmadı. Sivil Havacılık Genel
+                  Müdürlüğü, şehirler arası dron taşımacılığı için "hava
+                  koridoru güzergahı" belirledi.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent border-top-0 mb-2">
+                <div class="d-flex align-item-center">
+                  <img
+                    class="rounded-circle"
+                    src="https://dummyimage.com/40x40/ced4da/6c757d"
+                    alt=""
+                  />
+                  <div class="small px-3">
+                    <div class="fw-bold">Prof. Dr. Hüseyin Çelik</div>
+                    <div class="text-muted">12 Mart, 2023</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <div class="card h-100 shadow border-0">
+              <img
+                src="https://avdesodrone.com/wp-content/uploads/2020/06/image-2.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                  Haberler
+                </div>
+                <a
+                  target="_blank"
+                  class="text-decoration-none link-dark stretched-link"
+                  href="https://avdesodrone.com/yangin-sonduren-dronlar-ucan-itfaiyeler/"
+                >
+                  <h5 class="card-title">Yangın Söndürmede Dronelar</h5>
+                </a>
+
+                <p class="card-text mb-0">
+                  Yaz aylarında ortaya çıkan orman yangınları başımıza büyük
+                  dertler açmaktadır.Her yıl milyonlarca dönüm arazilerdeki
+                  ağaçlarımız zarar görmekte,hava kirliliği de artmaktadır.Ancak
+                  dronlar artık olası yangınları tespit ederek müdahalede
+                  bulunabilecek.Arama kurtarma operasyonları ile eş zamanlı
+                  çalışacak ve herhangi bir yangın olduğunda İçişleri Bakanlığı
+                  onayınca bize yardım edebilecek.
+                </p>
+              </div>
+              <!--bg-transparent border-top-0 Gri gölgeyi ve çizgiyi kaldırır-->
+              <div class="card-footer bg-transparent border-top-0">
+                <div class="d-flex align-item-center">
+                  <img
+                    class="rounded-circle"
+                    src="https://dummyimage.com/40x40/ced4da/6c757d"
+                    alt=""
+                  />
+                  <div class="small px-3">
+                    <div class="fw-bold">Berk Akgüç</div>
+                    <div class="text-muted">20 Mart, 2024</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <!--kutu şeklinde gözükmesi için SHADOW-->
+            <div class="card h-100 shadow border-0">
+              <img
+                src="https://media.wired.com/photos/59548c05be605811a2fdd5e9/master/pass/GettyImages-493606849.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                  Haberler
+                </div>
+                <a
+                  target="_blank"
+                  class="text-decoration-none link-dark stretched-link"
+                  href="https://avdesodrone.com/dronlar-film-sektorunde-buyuk-rol-oynuyor/"
+                >
+                  <h5 class="card-title">Dronelar ile Sinema Çekimi</h5>
+                </a>
+
+                <p class="ca card-text mb-0">
+                  Film yapımında dronların kullanımı, modern sinemayı
+                  yenileyecek birçok teknolojik ilerlemeden sadece biridir .
+                  Dronlar filmlerde yeni perspektifler için yüksek bir bar
+                  oluşturacakları kesin. James Bond: Skyfall, The Wolf of Wall
+                  Street, and Jurassic World gibi ünlü filmlerin bazı
+                  sahnelerinin dronla çekildiğini biliyor muydunuz?
+                </p>
+              </div>
+              <div class="card-footer bg-transparent border-top-0">
+                <div class="d-flex align-item-center">
+                  <img
+                    class="rounded-circle"
+                    src="https://dummyimage.com/40x40/ced4da/6c757d"
+                    alt=""
+                  />
+                  <div class="small px-3">
+                    <div class="fw-bold">Berk Akgüç</div>
+                    <div class="text-muted">4 Haziran , 2023</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--mx margine sağ ve sola eşit mesafe koyar-->
+      <aside class="bg-custom rounded-3 mx-5 p-4 p-sm-5 mt-5">
+        <div
+          class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start"
+        >
+          <div class="mb-4 mb-0">
+            <div>
+              <h3 class="text-white">Yeni ürünlerimizden haberdar olun!</h3>
+            </div>
+            <div class="small text-white">
+              En son güncellemeler için bültenimize kaydolun.
+            </div>
+          </div>
+          <div class="ms-xl-4">
+            <div class="input-group mb-2">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Mail adresiniz..."
+                aria-label="Email address..."
+                aria-describedby="button-newsletter"
+              />
+              <button
+                class="btn btn-outline-light"
+                id="button-newsletter"
+                type="button"
+              >
+                Üye Ol
+              </button>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <!---->
+    <footer class="px-5 foot">
+      <div class="container mx-5 py-5">
+        <div class="row align-item-center justify-content-between">
+          <div class="col-auto">
+            <div class="small text-white">Uğur Yıldırım © 2024, Mart</div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#">Privacy</a>
+            <span class="text-white">·</span>
+            <a class="link-light small" href="#">Terms</a
+            ><span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Example Code -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
